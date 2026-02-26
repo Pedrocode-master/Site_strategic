@@ -47,7 +47,7 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://wa.me/5500000000000?text=Olá! Gostaria de um orçamento."
+            href="https://wa.me/5515936185797?text=Olá! Gostaria de um orçamento."
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-primary px-8 py-3 font-medium text-primary-foreground hover:opacity-90 transition-opacity glow-shadow"

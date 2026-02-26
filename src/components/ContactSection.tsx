@@ -25,12 +25,12 @@ const ContactSection = () => {
             <div className="flex flex-col items-center gap-3 p-6 rounded-xl border border-border">
               <MessageCircle className="text-primary" size={28} />
               <span className="font-medium text-sm">WhatsApp</span>
-              <span className="text-xs text-muted-foreground">(00) 00000-0000</span>
+              <span className="text-xs text-muted-foreground">+55 (15) 93618-5797</span>
             </div>
             <div className="flex flex-col items-center gap-3 p-6 rounded-xl border border-border">
               <Mail className="text-primary" size={28} />
               <span className="font-medium text-sm">E-mail</span>
-              <span className="text-xs text-muted-foreground">contato@seusite.com</span>
+              <span className="text-xs text-muted-foreground">pedrolopes.pl63@gmail.com</span>
             </div>
             <div className="flex flex-col items-center gap-3 p-6 rounded-xl border border-border">
               <MapPin className="text-primary" size={28} />
