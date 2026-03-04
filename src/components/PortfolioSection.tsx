@@ -10,11 +10,12 @@ const projects = [
     color: "from-amber-500/20 to-orange-500/20",
   },
   {
-    title: "Dr. Silva - Consultório",
-    category: "Landing Page",
-    desc: "Landing page para consultório médico com agendamento via WhatsApp e informações de serviços.",
-    techs: ["Next.js", "TypeScript"],
+    title: "LogOpti",
+    category: "Sistema web",
+    desc: "Sistema web para otimização de logística com gerenciamento de rotas e análise de desempenho.",
+    techs: ["React", "Vite","node", "Tailwind CSS"],
     color: "from-blue-500/20 to-cyan-500/20",
+    link: "https://pedrocode-master-logistic-app-1.vercel.app/",
   },
   {
     title: "FitControl",
