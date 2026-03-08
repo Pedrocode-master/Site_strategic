@@ -8,6 +8,7 @@ const projects = [
     desc: "Site completo para cafeteria com cardápio digital, localização e reservas online.",
     techs: ["React", "Tailwind CSS", "Node.js"],
     color: "from-amber-500/20 to-orange-500/20",
+    link: "https://coffee-store-murex.vercel.app/",
   },
   {
     title: "LogOpti",
