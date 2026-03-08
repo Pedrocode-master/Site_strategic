@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ExternalLink } from "lucide-react";
+import ProjectCard from "./ProjectCard.tsx";
 
 const projects = [
   {
@@ -13,7 +13,7 @@ const projects = [
     title: "LogOpti",
     category: "Sistema web",
     desc: "Sistema web para otimização de logística com gerenciamento de rotas e análise de desempenho.",
-    techs: ["React", "Vite","node", "Tailwind CSS"],
+    techs: ["React", "Vite", "Node.js", "Tailwind CSS"],
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://pedrocode-master-logistic-app-1.vercel.app/",
   },
@@ -55,43 +55,7 @@ const PortfolioSection = () => {
 
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((p, i) => (
-            <motion.div
-              key={p.title}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.1 }}
-              className="group relative rounded-xl border border-border overflow-hidden hover:border-primary/50 transition-all"
-            >
-              {/* Gradient header */}
-              <div
-                className={`h-40 bg-gradient-to-br ${p.color} flex items-center justify-center`}
-              >
-                <span className="font-mono text-sm text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-2">
-                  <ExternalLink size={16} /> Ver projeto
-                </span>
-              </div>
-
-              <div className="p-6">
-                <p className="font-mono text-xs text-primary mb-1">
-                  {p.category}
-                </p>
-                <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
-                <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                  {p.desc}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {p.techs.map((t) => (
-                    <span
-                      key={t}
-                      className="font-mono text-xs px-2 py-1 rounded bg-secondary text-secondary-foreground"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
+            <ProjectCard key={p.title} project={p} index={i} />
           ))}
         </div>
       </div>
