@@ -8,6 +8,7 @@ interface Project {
   techs: string[];
   color: string;
   link?: string;
+  image?: string; 
 }
 
 interface ProjectCardProps {
@@ -28,14 +29,33 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         href={project.link ?? "#"}
         target={project.link ? "_blank" : undefined}
         rel={project.link ? "noopener noreferrer" : undefined}
-        className="block"
+        className="block relative"
       >
-        <div className={`h-40 bg-gradient-to-br ${project.color} flex items-center justify-center`}>
-          <span className="font-mono text-sm text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-2">
-            <ExternalLink size={16} />
-            {project.link ? "Ver projeto" : "Em breve"}
-          </span>
+        {/* Imagem ou gradiente */}
+        <div className={`h-40 flex items-center justify-center overflow-hidden rounded-t-xl`}>
+          {project.image ? (
+            <img
+              src={project.image}
+              alt={project.title}
+              className="w-full h-full object-cover transition-transform group-hover:scale-105"
+            />
+          ) : (
+            <div className={`w-full h-full bg-gradient-to-br ${project.color} flex items-center justify-center`}>
+              <span className="font-mono text-sm text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-2">
+                <ExternalLink size={16} />
+                {project.link ? "Ver projeto" : "Em breve"}
+              </span>
+            </div>
+          )}
         </div>
+
+        {/* Hover overlay */}
+        {project.link && (
+          <span className="absolute inset-0 flex items-center justify-center text-white text-sm opacity-0 group-hover:opacity-100 bg-black/30 transition-opacity">
+            <ExternalLink size={16} className="mr-1" />
+            Ver projeto
+          </span>
+        )}
       </a>
 
       <div className="p-6">
@@ -44,7 +64,10 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
         <p className="text-sm text-muted-foreground mb-4 leading-relaxed">{project.desc}</p>
         <div className="flex flex-wrap gap-2">
           {project.techs.map((t) => (
-            <span key={t} className="font-mono text-xs px-2 py-1 rounded bg-secondary text-secondary-foreground">
+            <span
+              key={t}
+              className="font-mono text-xs px-2 py-1 rounded bg-secondary text-secondary-foreground"
+            >
               {t}
             </span>
           ))}

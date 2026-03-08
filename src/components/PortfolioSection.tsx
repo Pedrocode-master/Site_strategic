@@ -9,6 +9,7 @@ const projects = [
     techs: ["React", "Tailwind CSS", "Node.js"],
     color: "from-amber-500/20 to-orange-500/20",
     link: "https://coffee-store-murex.vercel.app/",
+    image: "https://coffee-store-murex.vercel.app/assets/hero-coffee-Dg4T07_u.jpg"
   },
   {
     title: "LogOpti",
@@ -17,6 +18,7 @@ const projects = [
     techs: ["React", "Vite", "Node.js", "Tailwind CSS"],
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://pedrocode-master-logistic-app-1.vercel.app/",
+    image: "https://pedrocode-master-logistic-app-1.vercel.app/assets/logopti-logo-transparent-Cw1xX6dY.png"
   },
   {
     title: "FitControl",
