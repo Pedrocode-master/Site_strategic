@@ -25,18 +25,20 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sou um desenvolvedor full stack apaixonado por criar soluções
-                digitais que geram resultado. Trabalho com tecnologias modernas
-                para construir sites rápidos, bonitos e funcionais.
+                Sou Pedro Lopes, desenvolvedor full stack especializado em
+                transformar problemas reais de negócio em software que funciona.
+                Já construí desde landing pages de alta conversão até sistemas
+                completos com autenticação, banco de dados e painel de gestão.
               </p>
               <p>
-                Meu objetivo é ajudar pequenas empresas e profissionais
-                autônomos a terem presença online profissional, com sites que
-                realmente convertem visitantes em clientes.
+                Trabalho com pequenas e médias empresas que precisam de
+                tecnologia séria sem pagar preço de agência grande. Cada
+                projeto começa pelo <span className="text-foreground font-medium">problema do cliente</span>,
+                não pela tecnologia.
               </p>
               <p>
-                Acredito que um bom site não precisa ser complicado — precisa
-                ser <span className="text-foreground font-medium">claro, rápido e eficiente</span>.
+                Atendo 100% remoto, com comunicação direta — você fala comigo,
+                não com um intermediário.
               </p>
             </div>
 

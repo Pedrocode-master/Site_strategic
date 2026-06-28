@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Café & Sabor",
     category: "Site Institucional",
-    desc: "Site completo para cafeteria com cardápio digital, localização e reservas online.",
+    desc: "Site completo para cafeteria com cardápio digital, localização e reservas online. Design focado em conversão e experiência mobile.",
     techs: ["React", "Tailwind CSS", "Node.js"],
     color: "from-amber-500/20 to-orange-500/20",
     link: "https://coffee-store-murex.vercel.app/",
@@ -13,26 +13,30 @@ const projects = [
   },
   {
     title: "LogOpti",
-    category: "Sistema web",
-    desc: "Sistema web para otimização de logística com gerenciamento de rotas e análise de desempenho.",
+    category: "Sistema Web",
+    desc: "Sistema de otimização logística com gerenciamento de rotas em tempo real, análise de desempenho e dashboard de indicadores.",
     techs: ["React", "Vite", "Node.js", "Tailwind CSS"],
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://pedrocode-master-logistic-app-1.vercel.app/",
     image: "https://pedrocode-master-logistic-app-1.vercel.app/assets/logopti-logo-transparent-Cw1xX6dY.png"
   },
   {
-    title: "FitControl",
-    category: "Sistema Web",
-    desc: "Sistema de controle de alunos para academia com dashboard de frequência e pagamentos.",
-    techs: ["React", "PostgreSQL", "Node.js"],
-    color: "from-green-500/20 to-emerald-500/20",
+    title: "SmartRout AI",
+    category: "Sistema GPS + Backend",
+    desc: "Sistema completo de rastreamento GPS com visualização de rotas em mapa, integração com OpenRouteService e API REST em Flask.",
+    techs: ["Python", "Flask", "OpenLayers", "PostgreSQL"],
+    color: "from-violet-500/20 to-purple-500/20",
+    link: "https://github.com/Pedrocode-master/SmartRout-AI",
+    image: "https://github.com/Pedrocode-master/SmartRout-AI/blob/main/assets/smartrout-logo.png?raw=true"
   },
   {
-    title: "Bella Estética",
-    category: "Site + Agendamento",
-    desc: "Site para estúdio de estética com galeria de trabalhos e sistema de agendamento integrado.",
-    techs: ["React", "Tailwind CSS", "Supabase"],
-    color: "from-pink-500/20 to-rose-500/20",
+    title: "Logistica reversa Grupo Automec Chevrolet",
+    category: "Sistema de gestão de Logistica Reversa Chevrolet",
+    desc: "Plataforma desenvolvida para otimizar o processo de logística reversa do Grupo Automec Chevrolet.",
+    techs: ["Python", "React", "Flask", "PostgreSQL"],
+    color: "from-teal-500/20 to-green-500/20",
+    link: "https://automec-frontend.onrender.com",
+    image: "https://automec-frontend.onrender.com/assets/logo-automec-2.png"
   },
 ];
 

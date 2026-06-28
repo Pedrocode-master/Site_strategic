@@ -26,8 +26,8 @@ const HeroSection = () => {
           transition={{ delay: 0.4 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4"
         >
-          Desenvolvedor{" "}
-          <span className="text-gradient">Full Stack</span>
+          Pedro Lopes,{" "}
+          <span className="text-gradient">Dev Full Stack</span>
         </motion.h1>
 
         <motion.p
@@ -36,8 +36,8 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Transformo suas ideias em sites e sistemas modernos.
-          Soluções digitais sob medida para o seu negócio crescer.
+          Crio sites e sistemas que geram resultado — do design limpo
+          ao backend robusto. Entrega rápida, código que escala.
         </motion.p>
 
         <motion.div

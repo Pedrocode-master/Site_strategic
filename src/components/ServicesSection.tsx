@@ -14,8 +14,8 @@ const services = [
   },
   {
     icon: Settings,
-    title: "Sistemas Simples",
-    desc: "Sistemas web sob medida para organizar processos e facilitar o dia a dia do seu negócio.",
+    title: "Sistemas Web Completos",
+    desc: "Sistemas sob medida com banco de dados, autenticação e painel de gestão — do cadastro ao relatório.",
   },
   {
     icon: Zap,
