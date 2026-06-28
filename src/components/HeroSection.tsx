@@ -36,8 +36,9 @@ const HeroSection = () => {
           transition={{ delay: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Crio sites e sistemas que geram resultado — do design limpo
-          ao backend robusto. Entrega rápida, código que escala.
+          Crio sites e sistemas que geram resultado — com foco especial em
+          logística e operações (rastreamento, rotas, logística reversa).
+          Do design limpo ao backend robusto, entrega rápida e código que escala.
         </motion.p>
 
         <motion.div

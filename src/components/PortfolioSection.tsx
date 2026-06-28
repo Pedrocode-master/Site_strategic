@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard.tsx";
-import imgChevrolet from '../assets/Imagem chevrolet.png'; // Ajuste os pontos ".." conforme a estrutura de pastas
+import imgChevrolet from '../assets/Imagem chevrolet.png';
 
 const projects = [
   {
@@ -72,6 +72,3 @@ const PortfolioSection = () => {
 };
 
 export default PortfolioSection;
-
-
-//estou fazenod um comentário apra ver se recupero o controle do pc

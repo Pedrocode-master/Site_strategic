@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
-import { Code2, Rocket, Users } from "lucide-react";
+import { Code2, Rocket, Users, Truck } from "lucide-react";
 
 const highlights = [
+  { icon: Truck, label: "Especialista em sistemas de logística" },
   { icon: Code2, label: "Código limpo e moderno" },
   { icon: Rocket, label: "Entrega rápida e eficiente" },
   { icon: Users, label: "Foco total no cliente" },
@@ -25,15 +26,19 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                Sou Pedro Lopes, desenvolvedor full stack especializado em
-                transformar problemas reais de negócio em software que funciona.
-                Já construí desde landing pages de alta conversão até sistemas
+                Sou Pedro Lopes, desenvolvedor full stack com foco em{" "}
+                <span className="text-foreground font-medium">
+                  sistemas de logística e operações
+                </span>{" "}
+                — rastreamento GPS, otimização de rotas e logística reversa.
+                Também construo desde landing pages de alta conversão até sistemas
                 completos com autenticação, banco de dados e painel de gestão.
               </p>
               <p>
-                Trabalho com pequenas e médias empresas que precisam de
-                tecnologia séria sem pagar preço de agência grande. Cada
-                projeto começa pelo <span className="text-foreground font-medium">problema do cliente</span>,
+                Trabalho com pequenas e médias empresas, transportadoras e
+                operações que precisam de tecnologia séria sem pagar preço de
+                agência grande. Cada projeto começa pelo{" "}
+                <span className="text-foreground font-medium">problema do cliente</span>,
                 não pela tecnologia.
               </p>
               <p>
@@ -60,7 +65,7 @@ const AboutSection = () => {
               ))}
 
               <div className="flex flex-wrap gap-2 pt-4">
-                {["React", "TypeScript", "Node.js", "Tailwind CSS", "Next.js", "PostgreSQL"].map(
+                {["React", "TypeScript", "Node.js", "Python", "Flask", "PostgreSQL"].map(
                   (tech) => (
                     <span
                       key={tech}

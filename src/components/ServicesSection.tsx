@@ -1,7 +1,17 @@
 import { motion } from "framer-motion";
-import { Globe, Layout, Settings, Zap, Wrench, MonitorSmartphone } from "lucide-react";
+import { Globe, Layout, Settings, Truck, Wrench, MonitorSmartphone } from "lucide-react";
 
 const services = [
+  {
+    icon: Truck,
+    title: "Sistemas de Logística & Operação",
+    desc: "Plataformas para rastreamento GPS, otimização de rotas, logística reversa e gestão de processos — do cadastro ao dashboard de indicadores.",
+  },
+  {
+    icon: Settings,
+    title: "Sistemas Web Completos",
+    desc: "Sistemas sob medida com banco de dados, autenticação e painel de gestão — do cadastro ao relatório.",
+  },
   {
     icon: Globe,
     title: "Sites Institucionais",
@@ -11,16 +21,6 @@ const services = [
     icon: Layout,
     title: "Landing Pages",
     desc: "Páginas focadas em conversão, ideais para campanhas de marketing e captação de leads.",
-  },
-  {
-    icon: Settings,
-    title: "Sistemas Web Completos",
-    desc: "Sistemas sob medida com banco de dados, autenticação e painel de gestão — do cadastro ao relatório.",
-  },
-  {
-    icon: Zap,
-    title: "Automação Básica",
-    desc: "Automatize tarefas repetitivas e ganhe tempo para focar no que realmente importa.",
   },
   {
     icon: Wrench,
