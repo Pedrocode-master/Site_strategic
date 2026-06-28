@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard.tsx";
+import imgChevrolet from '../assets/Imagem chevrolet.png'; // Ajuste os pontos ".." conforme a estrutura de pastas
 
 const projects = [
   {
@@ -36,7 +37,7 @@ const projects = [
     techs: ["Python", "React", "Flask", "PostgreSQL"],
     color: "from-teal-500/20 to-green-500/20",
     link: "https://automec-frontend.onrender.com",
-    image: "C:\\Users\\pedro\\Pictures\\Screenshots\\Imagem chevrolet.png"
+    image: imgChevrolet
   },
 ];
 
