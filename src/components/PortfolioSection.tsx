@@ -36,7 +36,7 @@ const projects = [
     techs: ["Python", "React", "Flask", "PostgreSQL"],
     color: "from-teal-500/20 to-green-500/20",
     link: "https://automec-frontend.onrender.com",
-    image: "https://automec-frontend.onrender.com/assets/logo-automec-2.png"
+    image: "C:\\Users\\pedro\\Pictures\\Screenshots\\Imagem chevrolet.png"
   },
 ];
 
@@ -71,3 +71,6 @@ const PortfolioSection = () => {
 };
 
 export default PortfolioSection;
+
+
+//estou fazenod um comentário apra ver se recupero o controle do pc
